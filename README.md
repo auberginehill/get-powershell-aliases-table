@@ -1417,7 +1417,7 @@
                                 <td style="padding:6px">The current pipeline object ('this' token)</td>
                             </tr>
                             <tr>
-                                <td style="padding:6px"><code>$variable = "value"</code></td>
+                                <td style="padding:6px"><code>$variable&nbsp;=&nbsp;"value"</code></td>
                                 <td style="padding:6px">Define a variable with a value</td>
                             </tr>
                             <tr>
@@ -1441,7 +1441,7 @@
                                 <td style="padding:6px">Declare or use a variable with non-standard characters in it</td>
                             </tr>
                             <tr>
-                                <td style="padding:6px"><code>$h = @{"key" = "value"}</code></td>
+                                <td style="padding:6px"><code>$h&nbsp;=&nbsp;@{"key"&nbsp;=&nbsp;"value"}</code></td>
                                 <td style="padding:6px">Declare a hash table <code>$h</code> with a key-value pair (semicolon as a separator)</td>
                             </tr>
                             <tr>
