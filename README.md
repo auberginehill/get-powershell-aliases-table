@@ -1120,6 +1120,8 @@
                 </p>
                 <p>
                     <li>Extra aliases and special string output positioning/formatting characters and formulas in PowerShell
+                    <br />
+                    <br />
                         <table>
                             <tr>
                                 <td style="padding:6px"><strong>Alias</strong></td>
