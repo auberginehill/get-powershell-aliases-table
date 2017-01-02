@@ -152,7 +152,6 @@
         <td style="padding:6px">
             <ul>
                 <p>
-                    <ol>
                         <table>
                             <tr>
                                 <th>Name</th>
@@ -1268,6 +1267,7 @@
                                 <td></td>
                             </tr>
                         </table>
+                    <ol>                        
                         <p>Source: <a href="https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.utility/get-alias">Get-Alias</a></p>
                         <!-- Code that generated the above table:
                                 $aliases_html = Get-Alias | Select-Object @{Label="Name";Expression={[string]'<code>' + ($_.Name) + '</code>'}},Definition,DisplayName,@{Label="HelpUri";Expression={[string]'<a href="' + ($_.HelpUri) + '">' + ($_.HelpUri) + '</a>'}},Version
@@ -1279,7 +1279,6 @@
                 </p>
                 <p>
                     <li>Extra aliases and special string output positioning/formatting characters and formulas in PowerShell
-                    <ol>
                         <table>
                             <tr>
                                 <td style="padding:6px"><strong>Alias</strong></td>
@@ -1470,6 +1469,7 @@
                                 <td style="padding:6px">Aside from type casting, it can be used to specify strongly typed variables</td>
                             </tr>
                         </table>
+                    <ol>                        
                         <p>Sources: <a href="http://ss64.com/ps/">An A-Z Index of Windows PowerShell commands</a>, <a href="http://ss64.com/ps/syntax-esc.html">Escape characters, Delimiters and Quotes</a>, <a href="http://ss64.com/ps/syntax-variables.html">Variables and Operators (add, subtract, divide...)</a>, <a href="https://msdn.microsoft.com/en-us/library/aa717088(v=vs.85).aspx">Supporting Wildcard Characters in Cmdlet Parameters</a>, <a href="https://technet.microsoft.com/en-us/library/ee692803.aspx">Working with Hash Tables</a> and <a href="https://technet.microsoft.com/en-us/library/2007.11.powershell.aspx">Windows PowerShell Writing Regular Expressions</a></p>
                     </ol></li>
                 </p>
